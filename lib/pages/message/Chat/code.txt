@@ -1,0 +1,105 @@
+
+// import 'audioController.dart';
+/*
+import 'package:social_media_recorder/audio_encoder_type.dart';
+import 'package:social_media_recorder/main.dart';
+import 'package:social_media_recorder/provider/sound_record_notifier.dart';
+import 'package:social_media_recorder/screen/social_media_recorder.dart';
+import 'package:social_media_recorder/widgets/lock_record.dart';
+import 'package:social_media_recorder/widgets/show_counter.dart';
+import 'package:social_media_recorder/widgets/show_mic_with_text.dart';
+import 'package:social_media_recorder/widgets/sound_recorder_when_locked_design.dart';*/
+
+
+
+  /* Widget _audio({
+    required String message,
+    required bool isCurrentUser,
+    required int index,
+    required String time,
+    required String duration,
+  }) {
+    return Container(
+      width: MediaQuery.of(context).size.width * 0.5,
+      padding: EdgeInsets.all(8),
+      decoration: BoxDecoration(
+        color: isCurrentUser ? mainColor : mainColor.withOpacity(0.18),
+        borderRadius: BorderRadius.circular(10),
+      ),
+      child: Row(
+        children: [
+          GestureDetector(
+            onTap: () {
+              audioController.onPressedPlayButton(index, message);
+              // changeProg(duration: duration);
+            },
+            onSecondaryTap: () {
+              audioPlayer.stop();
+              //   audioController.completedPercentage.value = 0.0;
+            },
+            child: Obx(
+              () => (audioController.isRecordPlaying &&
+                      audioController.currentId == index)
+                  ? Icon(
+                      Icons.cancel,
+                      color: isCurrentUser ? Colors.white : mainColor,
+                    )
+                  : Icon(
+                      Icons.play_arrow,
+                      color: isCurrentUser ? Colors.white : mainColor,
+                    ),
+            ),
+          ),
+          Obx(
+            () => Expanded(
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 0),
+                child: Stack(
+                  clipBehavior: Clip.none,
+                  alignment: Alignment.center,
+                  children: [
+                    // Text(audioController.completedPercentage.value.toString(),style: TextStyle(color: Colors.white),),
+                    LinearProgressIndicator(
+                      minHeight: 5,
+                      backgroundColor: Colors.grey,
+                      valueColor: AlwaysStoppedAnimation<Color>(
+                        isCurrentUser ? Colors.white : mainColor,
+                      ),
+                      value: (audioController.isRecordPlaying &&
+                              audioController.currentId == index)
+                          ? audioController.completedPercentage.value
+                          : audioController.totalDuration.value.toDouble(),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+          SizedBox(
+            width: 10,
+          ),
+          Text(
+            duration,
+            style: TextStyle(
+                fontSize: 12, color: isCurrentUser ? Colors.white : mainColor),
+          ),
+        ],
+      ),
+    );
+  }
+*/
+
+          /*Text(
+                          //Wrap here with Obx
+                          //controller.state.to_location.value,
+                          "Unknown location",
+                          overflow: TextOverflow.visible,
+                          //incase the user has a long name
+                          style: TextStyle(
+                              fontFamily: 'Avenir',
+                              fontWeight: FontWeight.normal,
+                              color: AppColors.primaryBackground,
+                              fontSize: 12.sp),
+                        )*/
+
+

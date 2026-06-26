@@ -1,0 +1,21 @@
+asyncLoadAllData()
+onRefresh()
+onLoading()
+
+# view.dart>message
+- create message_list>widgets>chat
+# Bindings>application:
+- load message controller
+
+
+FROM 6 > 6.5 talking about location 
+#message controller
+- getUserLocation() 
+- call the method in onReady()
+
+#chat controller 
+- getLocation()
+- calling location method in view>chat
+- wrap the text widget with OPX [location]
+
+  
