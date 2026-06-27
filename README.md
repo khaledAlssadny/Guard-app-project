@@ -1,4 +1,4 @@
-# firebase_chat
+# Guard App
 
 A new Flutter project.
 
